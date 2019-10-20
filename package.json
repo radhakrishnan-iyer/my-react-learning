@@ -1,0 +1,38 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "Test App",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radhakrishnan-iyer/my-react-learning.git"
+  },
+  "author": "Radhakrishnan Iyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radhakrishnan-iyer/my-react-learning/issues"
+  },
+  "homepage": "https://github.com/radhakrishnan-iyer/my-react-learning#readme",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-core": "^0.6.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
