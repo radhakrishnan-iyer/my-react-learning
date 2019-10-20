@@ -23,6 +23,6 @@ Steps to setup new React App
    
    npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin
    
-   npm install --save-dev @babel/core @babel/preset-env
+   npm install -D @babel/core @babel/preset-env
    
-   npm install --save-dev @babel/preset-react
+   npm install -D @babel/preset-react
